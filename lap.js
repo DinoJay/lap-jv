@@ -25,7 +25,7 @@
 *************************************************************************/
 
 /* This function is the jv shortest augmenting path algorithm to solve the assignment problem */
-function lap(dim, cost) {
+export default function lap(dim, cost) {
   // input:
   // dim        - problem size
   // cost       - cost callback (or matrix)
